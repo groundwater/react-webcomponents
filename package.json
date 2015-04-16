@@ -1,0 +1,30 @@
+{
+  "name": "react-webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify -t [babelify --optional runtime] -t [stringify] index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groundwater/react-webcomponents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groundwater/react-webcomponents/issues"
+  },
+  "browserify": {
+    "transforms": []
+  },
+  "homepage": "https://github.com/groundwater/react-webcomponents#readme",
+  "dependencies": {
+    "babel": "^5.1.10",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8",
+    "react": "^0.13.1",
+    "stringify": "^3.1.0",
+    "watchify": "^3.1.1"
+  }
+}

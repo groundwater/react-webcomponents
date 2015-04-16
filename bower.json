@@ -1,0 +1,17 @@
+{
+  "name": "react-webcomponents",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/groundwater/react-webcomponents",
+  "authors": [
+    "Jacob Groundwater <groundwater@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
